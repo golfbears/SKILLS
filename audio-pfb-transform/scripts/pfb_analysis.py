@@ -152,7 +152,7 @@ class PFBAnalysis:
             如果return_complex=False: (magnitude, phase)
         """
         # 重置状态
-        self.reset()
+        #self.reset()
 
         # 计算帧数
         num_frames = len(signal) // self.frm_len
